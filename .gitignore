@@ -1,0 +1,18 @@
+# Fichiers sensibles
+*.key
+*.crt
+*password*
+pjsip.conf
+voicemail.conf
+
+# Logs
+*.log
+
+# Temporaires
+*.tmp
+*.bak
+*~
+
+# Python
+__pycache__/
+*.pyc

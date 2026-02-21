@@ -1,0 +1,14 @@
+[general]
+format=wav
+serveremail=voicemail@monserveur.fr
+attach=yes
+maxsecs=120
+minsecs=3
+
+[default]
+; format : extension => PIN,Nom,email
+
+#include voicemail_ldap.conf
+[default]
+1001 => PIN,Alice Martin,alice@datatrust.local
+1002 => PIN,Bob Dupont,bob@datatrust.local
