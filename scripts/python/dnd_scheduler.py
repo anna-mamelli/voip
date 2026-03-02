@@ -10,7 +10,7 @@ HOUR_END   = 18
 def set_dnd(extension, enabled):
     state = 'YES' if enabled else 'NO'
     subprocess.run(
-        ['asterisk', '-rx', f'database put DND {extension} {state}'],
+        ['sudo', 'asterisk', '-rx', f'database put DND {extension} {state}'],
         capture_output=True
     )
     status = 'ACTIF' if enabled else 'INACTIF'
