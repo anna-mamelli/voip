@@ -1,4 +1,4 @@
-# 📡 Projet VoIP Asterisk
+# Projet VoIP Asterisk
 
 Infrastructure VoIP complète avec Asterisk 22.8.2, LDAP, IVR, DnD et Docker.
 
@@ -22,11 +22,3 @@ voip/
 ├── docker/             # Solution Docker
 └── docs/               # Documentation
 ```
-
-## Installation
-
-Voir la documentation dans `docs/`
-
-## Licence
-
-MIT
